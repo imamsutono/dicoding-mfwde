@@ -260,6 +260,7 @@ footer p {
 .section__title {
     font-weight: bold;
     margin: 16px 0 8px;
+    color: #EB5757;
 }
 
 /* Color */
@@ -271,4 +272,8 @@ footer p {
 }
 .clr-black {
     color: black;
+}
+
+.align-center {
+    text-align: center;
 }

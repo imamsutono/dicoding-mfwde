@@ -10,12 +10,15 @@ const Detail = {
   },
 
   async afterRender() {
+    document.querySelector('.hero').setAttribute('style', 'display: none;');
+
+    const container = document.querySelector('#restaurant');
+    container.innerHTML = '<p class="align-center">Loading...</p>';
+
     const url = UrlParser.parseActiveUrlWithoutCombiner();
     const data = await RestaurantSource.detail(url.id);
-    const restaurantContainer = document.querySelector('#restaurant');
 
-    document.querySelector('.hero').setAttribute('style', 'display: none;');
-    restaurantContainer.innerHTML = createDetailTemplate(data.restaurant);
+    container.innerHTML = createDetailTemplate(data.restaurant);
   },
 };
 
