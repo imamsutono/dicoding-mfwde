@@ -39,6 +39,7 @@
     "babel-preset-es2015": "^6.24.1",
     "copy-webpack-plugin": "^6.0.3",
     "html-webpack-plugin": "^4.3.0",
+    "idb": "^6.1.2",
     "regenerator-runtime": "^0.13.7",
     "serviceworker-webpack-plugin": "^1.0.1",
     "webpack-merge": "^5.0.9"

@@ -83,4 +83,21 @@ const createDetailTemplate = ({
   ${createReview(customerReviews)}
 `;
 
-export { createItemTemplate, createDetailTemplate };
+const createLikeButtonTemplate = () => `
+  <button aria-label="like this restaurant" id="likeButton" class="like-btn">
+    <i class="fa fa-heart-o" aria-hidden="true"></i>
+  </button>
+`;
+
+const createLikedButtonTemplate = () => `
+  <button aria-label="unlike this restaurant" id="likeButton" class="like-btn">
+    <i class="fa fa-heart" aria-hidden="true"></i>
+  </button>
+`;
+
+export {
+  createItemTemplate,
+  createDetailTemplate,
+  createLikeButtonTemplate,
+  createLikedButtonTemplate,
+};
