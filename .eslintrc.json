@@ -14,6 +14,9 @@
     "rules": {
         "no-underscore-dangle": "off",
         "no-console": "off",
-        "no-restricted-globals": "off"
+        "no-restricted-globals": "off",
+        "no-undef": "off",
+        "no-prototype-builtins": "off",
+        "consistent-return": "off"
     }
 }
