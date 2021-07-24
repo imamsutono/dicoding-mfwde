@@ -201,6 +201,11 @@ main {
     color: grey;
 }
 
+.restaurant-item__not__found {
+    text-align: center;
+    color: grey;
+}
+
 /*
  * footer
  */
