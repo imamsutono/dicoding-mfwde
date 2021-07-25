@@ -4,7 +4,7 @@ const createItemTemplate = ({
   id, pictureId, name, description, rating, city,
 }) => `
   <article class="restaurant-item">
-    <img class="restaurant-item__thumbnail"
+    <img class="restaurant-item__thumbnail lazyload"
         src="${CONFIG.BASE_IMAGE_URL}small/${pictureId}"
         alt="${name}">
     <div class="restaurant-item__content">
