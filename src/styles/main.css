@@ -117,14 +117,25 @@ p {
     min-height: 380px;
     width: 100%;
     text-align: center;
-    background-image: url("../public/images/hero-image_4.jpg");
-    background-position: center;
     background-color: #EB5757;
+    position: relative;
+    overflow-y: hidden;
+}
+
+.hero__picture {
+    position: absolute;
+    width: 100%;
+}
+.hero__picture-img {
+    object-fit: cover;
+    width: 100%;
+    min-height: 380px;
 }
 
 .hero__inner {
     margin: 0 auto;
     max-width: 800px;
+    z-index: 9;
 }
 
 .hero__title {
