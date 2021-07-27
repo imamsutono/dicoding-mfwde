@@ -15,11 +15,12 @@
         "no-underscore-dangle": "off",
         "no-console": "off",
         "no-restricted-globals": "off",
-        "no-undef": "off",
         "no-prototype-builtins": "off",
         "no-new": "off",
         "consistent-return": "off",
         "class-methods-use-this": "off",
-        "import/no-extraneous-dependencies": "off"
-    }
+        "import/no-extraneous-dependencies": "off",
+        "import/prefer-default-export": "off"
+    },
+    "plugins": ["jasmine", "codeceptjs"]
 }
